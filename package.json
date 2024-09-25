@@ -1,0 +1,20 @@
+{
+  "name": "@butility/form",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules server.js"
+  },
+  "dependencies": {
+    "@butility/dom": "^1.0.0",
+    "@butility/form": "^1.0.0",
+    "@butility/media": "^1.0.2",
+    "@butility/network": "^1.0.1",
+    "@butility/style": "^1.0.1",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
