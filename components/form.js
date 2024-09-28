@@ -1,9 +1,6 @@
 import { form, input, button } from "../@butility/dom/html.js";
 import Style from "../@butility/style/style.js";
 import { cssToObject } from "../helper/css-to-obj.js";
-import { FormComponent } from "../components/form.js";
-import { loadArticle } from "./load.js";
-import { ArticleComponent } from "../components/article.js";
 import { Validate } from "../@butility/form/form.js";
 
 const loadStyles = Style.load("./style/form.css");
@@ -32,12 +29,7 @@ FormComponent.addEventListener("submit", (event) => {
 
     if (isValid.valid) {
         alert("You are good to go. Click okay to continue");
-        loadArticle("post-1").then((response) => {
-            body(
-                ArticleComponent(response),
-                a({ href: "?page=ip" }, "Show my IP")
-            )
-        }).catch(error => console.log(error))
+        window.location.href = "?page=select"
     } else {
         isValid.errors.forEach(error => {
             alert(error.message)
