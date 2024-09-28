@@ -1,5 +1,6 @@
 
 import { head, title } from "../@butility/dom/html.js";
+import { loadWebFont } from "../@butility/style/style.js";
 
 
 // Until the @butility/router pkg is developed we use basic router with params.
@@ -18,6 +19,11 @@ if (page === "ip") {
 } else { // Load the form as index
     await import("./form.js");
 }
+
+loadWebFont({
+    family: "Roboto",
+    elements: [ "body" ],
+});
 
 head(
     title("Butility example")
