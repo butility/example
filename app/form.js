@@ -28,12 +28,7 @@ FormComponent.addEventListener("submit", (event) => {
 
     if (isValid.valid) {
         alert("You are good to go. Click okay to continue");
-        loadArticle("post-1").then((response) => {
-            body(
-                ArticleComponent(response),
-                a({ href: "?page=ip" }, "Show my IP")
-            )
-        }).catch(error => console.log(error))
+        window.location.href = "?page=select"
     } else {
         isValid.errors.forEach(error => {
             alert(error.message)
