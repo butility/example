@@ -1,5 +1,5 @@
 
-import { Request } from "../@butility/network/network.js";
+import { Request } from "@butility/network";
 
 export function loadArticle(articleName) {
     return new Promise((resolve, reject) => {

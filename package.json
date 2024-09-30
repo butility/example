@@ -10,7 +10,7 @@
     "@butility/dom": "^1.0.0",
     "@butility/form": "^1.0.0",
     "@butility/media": "^1.0.2",
-    "@butility/network": "^1.0.1",
+    "@butility/network": "^1.0.3",
     "@butility/style": "^1.0.1",
     "express": "^4.21.0"
   },

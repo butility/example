@@ -1,5 +1,5 @@
 
-import { div, a } from "../@butility/dom/html.js";
+import { div, a } from "@butility/dom/html";
 
 const IPComponent = (loc) => {
     return div(

@@ -1,7 +1,7 @@
 
 import { ArticleComponent } from "../components/article.js";
 import { loadArticle } from "./load.js";
-import { body, a, p } from "../@butility/dom/html.js";
+import { body, a, p } from "@butility/dom/html";
 
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);

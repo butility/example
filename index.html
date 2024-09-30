@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="./app/main.js"></script>
+    <!-- Import map -->
+    <script type="importmap">
+        {
+            "imports": {
+                "@butility/dom": "./node_modules/@butility/dom/dom.js",
+                "@butility/dom/attribute": "./node_modules/@butility/dom/attribute.js",
+                "@butility/dom/class": "./node_modules/@butility/dom/class.js",
+                "@butility/dom/element": "./node_modules/@butility/dom/element.js",
+                "@butility/dom/event": "./node_modules/@butility/dom/event.js",
+                "@butility/dom/html": "./node_modules/@butility/dom/html.js",
+                "@butility/dom/traverse": "./node_modules/@butility/dom/traverse.js",
+                "@butility/form": "./node_modules/@butility/form/form.js",
+                "@butility/form/action": "./node_modules/@butility/form/action.js",
+                "@butility/form/generate": "./node_modules/@butility/form/generate.js",
+                "@butility/form/serialize": "./node_modules/@butility/form/serialize.js",
+                "@butility/form/validate": "./node_modules/@butility/form/validate.js",
+                "@butility/media": "./node_modules/@butility/media/media.js",
+                "@butility/media/audiovisual": "./node_modules/@butility/media/audiovisual.js",
+                "@butility/media/blob": "./node_modules/@butility/media/blob.js",
+                "@butility/media/camera": "./node_modules/@butility/media/camera.js",
+                "@butility/media/file": "./node_modules/@butility/media/file.js",
+                "@butility/media/full-screen": "./node_modules/@butility/media/full-screen.js",
+                "@butility/media/image": "./node_modules/@butility/media/image.js",
+                "@butility/network": "./node_modules/@butility/network/network.js",
+                "@butility/network/ip": "./node_modules/@butility/network/ip.js",
+                "@butility/network/request": "./node_modules/@butility/network/request.js",
+                "@butility/network/sw": "./node_modules/@butility/network/sw.js",
+                "@butility/network/url": "./node_modules/@butility/network/url.js",
+                "@butility/scroll": "./node_modules/@butility/scroll/scroll.js",
+                "@butility/style": "./node_modules/@butility/style/style.js",
+                "@butility/style/color": "./node_modules/@butility/style/color.js",
+                "@butility/style/css": "./node_modules/@butility/style/css.js",
+                "@butility/style/font": "./node_modules/@butility/style/font.js",
+                "@butility/style/state": "./node_modules/@butility/style/state.js",
+                "@butility/style/theme": "./node_modules/@butility/style/theme.js"
+            }
+        }
+    </script>
 </head>
 <body>
     <!-- Entry page -->
+    <script src="./app/main.js" type="module"></script>
 </body>
 </html>

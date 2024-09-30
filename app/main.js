@@ -1,6 +1,6 @@
 
-import { head, title } from "../@butility/dom/html.js";
-import { loadWebFont } from "../@butility/style/style.js";
+import { head, title } from "@butility/dom/html";
+import { loadWebFont } from "@butility/style";
 
 
 // Until the @butility/router pkg is developed we use basic router with params.

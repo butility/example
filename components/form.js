@@ -1,7 +1,7 @@
-import { form, input, button } from "../@butility/dom/html.js";
-import Style from "../@butility/style/style.js";
+import { form, input, button } from "@butility/dom/html";
+import Style from "@butility/style";
 import { cssToObject } from "../helper/css-to-obj.js";
-import { Validate } from "../@butility/form/form.js";
+import { Validate } from "@butility/form";
 
 const loadStyles = Style.load("./style/form.css");
 const styles = cssToObject(loadStyles.cssText);

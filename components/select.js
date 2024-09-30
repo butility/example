@@ -1,5 +1,5 @@
 
-import { div, body, a } from "../@butility/dom/html.js";
+import { div, a } from "@butility/dom/html";
 
 const SelectComponent = () => {
     return div({ class: "select-container" },

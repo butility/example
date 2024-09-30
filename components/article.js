@@ -1,5 +1,5 @@
 
-import { div, article } from "../@butility/dom/html.js";
+import { div, article } from "@butility/dom/html";
 
 const ArticleComponent = (articleContent) => {
     return div({ class: "article" },
